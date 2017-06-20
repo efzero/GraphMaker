@@ -121,7 +121,7 @@ joint.shapes.tm.ToolElementView = joint.dia.ElementView.extend({
         }
         return this;
     },
-    pointerclick: function (evt, x, y) {
+    pointerdown: function (evt, x, y) {
         this._dx = x;
         this._dy = y;
         this._action = '';
