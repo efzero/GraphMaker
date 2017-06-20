@@ -13,6 +13,13 @@ function onFileChange(event) {
     }
 
 
+
+
+
+function run() {
+        alert("Nothing to run");
+}
+
 function readit() {
 
     $.ajax({
